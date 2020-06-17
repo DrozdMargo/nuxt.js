@@ -2,7 +2,7 @@
 
 exports[`cli/command builds help text 1`] = `
 "  Usage: nuxt this is how you do it
-  [options]
+  [90m[options][39m
 
   a very long description that should wrap
   to the next line because is not longer
@@ -10,35 +10,35 @@ exports[`cli/command builds help text 1`] = `
 
   Options:
 
-    --spa, -s          Launch in SPA mode
-    --universal, -u    Launch in Universal
+   [1m --spa,[22m[1m -s[22m          Launch in SPA mode
+   [1m --universal,[22m[1m -u[22m    Launch in Universal
                        mode (default)
-    --config-file, -c  Path to Nuxt.js
-                       config file (default: nuxt.config)
-    --modern, -m       Build/Start app for
+   [1m --config-file,[22m[1m -c[22m  Path to Nuxt.js
+                       config file (default: [1m[36mnuxt.config[39m[22m)
+   [1m --modern,[22m[1m -m[22m       Build/Start app for
                        modern browsers, e.g. server, client and
                        false
-    --target, -t       Build/start app for a
+   [1m --target,[22m[1m -t[22m       Build/start app for a
                        different target, e.g. server,
                        serverless and static
-    --force-exit       Whether Nuxt.js
+   [1m --force-exit[22m       Whether Nuxt.js
                        should force exit after the command has
                        finished
-    --version, -v      Display the Nuxt
+   [1m --version,[22m[1m -v[22m      Display the Nuxt
                        version
-    --help, -h         Display this message
-    --no-processenv    Disable reading from
-                       process.env and updating it with
+   [1m --help,[22m[1m -h[22m         Display this message
+   [1m --no-processenv[22m    Disable reading from
+                       [1m[36mprocess.env[39m[22m and updating it with
                        dotenv
-    --dotenv           Specify path to
-                       dotenv file (default: .env). Use
-                       false to disable
-    --port, -p         Port number on which
+   [1m --dotenv[22m           Specify path to
+                       dotenv file (default: [1m[36m.env[39m[22m). Use
+                       [1m[36mfalse[39m[22m to disable
+   [1m --port,[22m[1m -p[22m         Port number on which
                        to start the application
-    --hostname, -H     Hostname on which to
+   [1m --hostname,[22m[1m -H[22m     Hostname on which to
                        start the application
-    --unix-socket, -n  Path to a UNIX socket
-    --foo              very long option that
+   [1m --unix-socket,[22m[1m -n[22m  Path to a UNIX socket
+   [1m --foo[22m              very long option that
                        is longer than the terminal width and
                        should wrap to the next line
 

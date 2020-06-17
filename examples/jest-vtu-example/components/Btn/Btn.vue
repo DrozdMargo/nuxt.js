@@ -14,11 +14,13 @@ export default {
     }
   },
   data: () => ({
-    clicked: false
+    clicked: false,
+    show: true,
   }),
   methods: {
     handleClick () {
       this.clicked = true
+      this.show = false
     }
   }
 }

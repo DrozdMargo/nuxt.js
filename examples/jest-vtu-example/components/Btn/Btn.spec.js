@@ -31,4 +31,10 @@ describe('Btn', () => {
     wrapper.find('button').trigger('click')
     expect(wrapper.vm.clicked).toBe(true)
   })
+
+  test('show is false after click', () => {
+    const wrapper = factory()
+    wrapper.find('button').trigger('click')
+    expect(wrapper.vm.show).toBe(false)
+  })
 })
